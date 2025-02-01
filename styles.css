@@ -3,7 +3,7 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -39,6 +39,10 @@ body, html {
 }
 
 /* Headings */
+h1, h2, p {
+    color: black;
+}
+
 h1 {
     font-size: 3em;
     margin: 10px 0;
@@ -62,7 +66,8 @@ h2 {
     width: 40px;
     height: 40px;
     transition: transform 0.3s ease-in-out;
-    filter: invert(100%);
+    filter: invert(0%);
+    border: none;
 }
 
 .icons a img:hover {
