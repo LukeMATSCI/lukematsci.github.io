@@ -1,0 +1,70 @@
+/* Ensure body and html take full viewport */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Fullscreen GIF background */
+#bg-gif {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+/* Center everything */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Profile Image */
+.content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+}
+
+/* Headings */
+h1 {
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: lighter;
+    opacity: 0.8;
+}
+
+/* Icons */
+.icons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icons a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+    filter: invert(100%);
+}
+
+.icons a img:hover {
+    transform: scale(1.2);
+}
