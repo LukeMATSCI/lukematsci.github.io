@@ -32,35 +32,36 @@ body, html {
     box-sizing: border-box;
 }
 
-/* Profile Image - Circular Shape Like Twitter/Discord */
+/* Profile Image - Reduced by 10% and moved up */
 .content img {
-    width: 150px;
-    height: 150px;
+    width: 135px;
+    height: 135px;
     border-radius: 50%; /* Makes it a circle */
     border: 3px solid white;
     object-fit: cover;
     aspect-ratio: 1/1;
-    margin-bottom: -10px;
+    margin-bottom: -15px;
+    margin-top: -20px; /* Moves image up slightly */
 }
 
-/* Headings - Adjusted Spacing and Alignment */
+/* Headings - Adjusted Spacing and Size */
 h1, h2 {
     color: #b0b0b0;
     text-shadow: 2px 2px 4px black;
-    margin-top: -20px;
+    margin-top: -15px;
 }
 
 h1 {
-    font-size: 2.8em;
+    font-size: 2.5em; /* Reduced by 10% */
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 h2 {
     font-size: 1.3em;
     font-weight: lighter;
     opacity: 0.9;
-    margin-bottom: 15px;
+    margin-bottom: 25px; /* Increased spacing */
 }
 
 /* Bio Section - Compact & Readable */
@@ -79,7 +80,7 @@ h2 {
 
 /* Icons - Adjusted Spacing */
 .icons {
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
     justify-content: center;
     gap: 12px;
