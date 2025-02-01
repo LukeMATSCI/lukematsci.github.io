@@ -2,8 +2,8 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Arial, sans-serif;
-    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #b0b0b0;
     text-align: center;
 }
 
@@ -42,8 +42,9 @@ body, html {
 }
 
 /* Headings */
-h1, h2, p {
-    color: black;
+h1, h2 {
+    color: #b0b0b0;
+    text-shadow: 2px 2px 4px black;
 }
 
 h1 {
@@ -54,19 +55,19 @@ h1 {
 h2 {
     font-size: 1.5em;
     font-weight: lighter;
-    opacity: 0.8;
+    opacity: 0.9;
     margin-bottom: 20px;
 }
 
 /* Bio Section */
 .bio {
-    max-width: 800px;
-    text-align: left;
+    max-width: 700px;
+    text-align: center;
     margin: 20px auto;
     line-height: 1.6;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 15px;
-    border-radius: 10px;
+    font-size: 1.1em;
+    color: #b0b0b0;
+    text-shadow: 1px 1px 3px black;
 }
 
 /* Icons */
