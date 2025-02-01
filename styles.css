@@ -22,11 +22,13 @@ body, html {
 /* Center everything */
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     text-align: center;
-    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 /* Profile Image - Circular Shape Like Twitter/Discord */
@@ -53,11 +55,23 @@ h2 {
     font-size: 1.5em;
     font-weight: lighter;
     opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+/* Bio Section */
+.bio {
+    max-width: 800px;
+    text-align: left;
+    margin: 20px auto;
+    line-height: 1.6;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
 }
 
 /* Icons */
 .icons {
-    margin-top: 15px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     gap: 15px;
