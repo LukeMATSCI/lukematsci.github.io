@@ -3,11 +3,11 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
-    color: #888888;
+    color: #b0b0b0;
     text-align: center;
 }
 
-/* Fullscreen GIF background with reduced opacity */
+/* Fullscreen GIF background with opacity control */
 #bg-gif {
     position: fixed;
     top: 0;
@@ -17,7 +17,7 @@ body, html {
     background-size: cover;
     background-position: center;
     z-index: -1;
-    opacity: 0.5; /* Reducing opacity for better readability */
+    opacity: 0.3; /* Adjusted for better readability */
 }
 
 /* Center everything */
@@ -40,51 +40,56 @@ body, html {
     border: 3px solid white;
     object-fit: cover;
     aspect-ratio: 1/1;
+    margin-bottom: -10px; /* Adjust positioning */
 }
 
 /* Headings - Raised & Adjusted Size */
 h1, h2 {
-    color: #888888;
-    text-shadow: 1px 1px 3px black;
-    margin-top: -20px; /* Raising Name & Major */
+    color: #b0b0b0;
+    text-shadow: 2px 2px 4px black;
+    margin-top: -30px; /* Further raising Name & Major */
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 2.3em;
+    font-weight: bold;
     margin: 5px 0;
 }
 
 h2 {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: lighter;
     opacity: 0.9;
     margin-bottom: 15px;
 }
 
-/* Bio Section - Reduced Font Size & Improved Readability */
+/* Bio Section - Compact & Readable */
 .bio {
-    max-width: 650px;
+    max-width: 600px;
     text-align: center;
-    margin: 15px auto;
-    line-height: 1.5;
-    font-size: 1em;
-    color: #888888;
+    margin: 10px auto;
+    line-height: 1.6;
+    font-size: 0.95em;
+    color: #b0b0b0;
     text-shadow: 1px 1px 3px black;
+    background: rgba(0, 0, 0, 0.5); /* Slight dark background */
+    padding: 10px;
+    border-radius: 10px;
 }
 
 /* Icons - Raised */
 .icons {
-    margin-top: -10px; /* Raising Icons */
+    margin-top: -5px; /* Raising Icons closer to headings */
     display: flex;
     justify-content: center;
     gap: 12px;
 }
 
 .icons a img {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     transition: transform 0.3s ease-in-out;
-    filter: invert(0%);
+    filter: invert(100%);
     border: none;
 }
 
